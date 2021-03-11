@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANSI_RE	lib/ansitowin32.py	/^    ANSI_RE = re.compile('\\033\\[((?:\\d|;)*)([a-zA-Z])')$/;"	kind:variable	line:43
+AnsiBack	lib/ansi.py	/^class AnsiBack:$/;"	kind:class	line:30
+AnsiCodes	lib/ansi.py	/^class AnsiCodes(object):$/;"	kind:class	line:12
+AnsiFore	lib/ansi.py	/^class AnsiFore:$/;"	kind:class	line:19
+AnsiStyle	lib/ansi.py	/^class AnsiStyle:$/;"	kind:class	line:41
+AnsiToWin32	lib/ansitowin32.py	/^class AnsiToWin32(object):$/;"	kind:class	line:37
+BLACK	lib/ansi.py	/^    BLACK   = 30$/;"	kind:variable	line:20
+BLACK	lib/ansi.py	/^    BLACK   = 40$/;"	kind:variable	line:31
+BLACK	lib/winterm.py	/^    BLACK   = 0$/;"	kind:variable	line:7
+BLUE	lib/ansi.py	/^    BLUE    = 34$/;"	kind:variable	line:24
+BLUE	lib/ansi.py	/^    BLUE    = 44$/;"	kind:variable	line:35
+BLUE	lib/winterm.py	/^    BLUE    = 1$/;"	kind:variable	line:8
+BRIGHT	lib/ansi.py	/^    BRIGHT    = 1$/;"	kind:variable	line:42
+BRIGHT	lib/winterm.py	/^    BRIGHT = 0x08 # bright text, dim background$/;"	kind:variable	line:19
+Back	lib/ansi.py	/^Back = AnsiCodes( AnsiBack )$/;"	kind:variable	line:48
+CONSOLE_SCREEN_BUFFER_INFO	lib/win32.py	/^    class CONSOLE_SCREEN_BUFFER_INFO(Structure):$/;"	kind:class	line:18
+CSI	lib/ansi.py	/^CSI = '\\033['$/;"	kind:variable	line:7
+CYAN	lib/ansi.py	/^    CYAN    = 36$/;"	kind:variable	line:26
+CYAN	lib/ansi.py	/^    CYAN    = 46$/;"	kind:variable	line:37
+CYAN	lib/winterm.py	/^    CYAN    = 3$/;"	kind:variable	line:10
+DIM	lib/ansi.py	/^    DIM       = 2$/;"	kind:variable	line:43
+FillConsoleOutputAttribute	lib/win32.py	/^    def FillConsoleOutputAttribute(stream_id, attr, length, start):$/;"	kind:function	line:126
+FillConsoleOutputCharacter	lib/win32.py	/^    def FillConsoleOutputCharacter(stream_id, char, length, start):$/;"	kind:function	line:116
+Fore	lib/ansi.py	/^Fore = AnsiCodes( AnsiFore )$/;"	kind:variable	line:47
+GREEN	lib/ansi.py	/^    GREEN   = 32$/;"	kind:variable	line:22
+GREEN	lib/ansi.py	/^    GREEN   = 42$/;"	kind:variable	line:33
+GREEN	lib/winterm.py	/^    GREEN   = 2$/;"	kind:variable	line:9
+GREY	lib/winterm.py	/^    GREY    = 7$/;"	kind:variable	line:14
+GetConsoleScreenBufferInfo	lib/win32.py	/^    def GetConsoleScreenBufferInfo(stream_id=STDOUT):$/;"	kind:function	line:88
+MAGENTA	lib/ansi.py	/^    MAGENTA = 35$/;"	kind:variable	line:25
+MAGENTA	lib/ansi.py	/^    MAGENTA = 45$/;"	kind:variable	line:36
+MAGENTA	lib/winterm.py	/^    MAGENTA = 5$/;"	kind:variable	line:12
+NORMAL	lib/ansi.py	/^    NORMAL    = 22$/;"	kind:variable	line:44
+NORMAL	lib/winterm.py	/^    NORMAL = 0x00 # dim text, dim background$/;"	kind:variable	line:18
+RED	lib/ansi.py	/^    RED     = 31$/;"	kind:variable	line:21
+RED	lib/ansi.py	/^    RED     = 41$/;"	kind:variable	line:32
+RED	lib/winterm.py	/^    RED     = 4$/;"	kind:variable	line:11
+RESET	lib/ansi.py	/^    RESET   = 39$/;"	kind:variable	line:28
+RESET	lib/ansi.py	/^    RESET   = 49$/;"	kind:variable	line:39
+RESET_ALL	lib/ansi.py	/^    RESET_ALL = 0$/;"	kind:variable	line:45
+STDERR	lib/win32.py	/^STDERR = -12$/;"	kind:variable	line:5
+STDOUT	lib/win32.py	/^STDOUT = -11$/;"	kind:variable	line:4
+SetConsoleCursorPosition	lib/win32.py	/^    def SetConsoleCursorPosition(stream_id, position):$/;"	kind:function	line:99
+SetConsoleTextAttribute	lib/win32.py	/^    SetConsoleTextAttribute = lambda *_: None$/;"	kind:variable	line:12
+SetConsoleTextAttribute	lib/win32.py	/^    def SetConsoleTextAttribute(stream_id, attrs):$/;"	kind:function	line:95
+StreamWrapper	lib/ansitowin32.py	/^class StreamWrapper(object):$/;"	kind:class	line:18
+Style	lib/ansi.py	/^Style = AnsiCodes( AnsiStyle )$/;"	kind:variable	line:49
+VERSION	lib/__init__.py	/^VERSION = '0.2.7'$/;"	kind:variable	line:6
+WHITE	lib/ansi.py	/^    WHITE   = 37$/;"	kind:variable	line:27
+WHITE	lib/ansi.py	/^    WHITE   = 47$/;"	kind:variable	line:38
+WinColor	lib/winterm.py	/^class WinColor(object):$/;"	kind:class	line:6
+WinStyle	lib/winterm.py	/^class WinStyle(object):$/;"	kind:class	line:17
+WinTerm	lib/winterm.py	/^class WinTerm(object):$/;"	kind:class	line:22
+YELLOW	lib/ansi.py	/^    YELLOW  = 33$/;"	kind:variable	line:23
+YELLOW	lib/ansi.py	/^    YELLOW  = 43$/;"	kind:variable	line:34
+YELLOW	lib/winterm.py	/^    YELLOW  = 6$/;"	kind:variable	line:13
+_FillConsoleOutputAttribute	lib/win32.py	/^    _FillConsoleOutputAttribute = windll.kernel32.FillConsoleOutputAttribute$/;"	kind:variable	line:73
+_FillConsoleOutputCharacterA	lib/win32.py	/^    _FillConsoleOutputCharacterA = windll.kernel32.FillConsoleOutputCharacterA$/;"	kind:variable	line:63
+_GetConsoleScreenBufferInfo	lib/win32.py	/^    _GetConsoleScreenBufferInfo = windll.kernel32.GetConsoleScreenBufferInfo$/;"	kind:variable	line:42
+_GetStdHandle	lib/win32.py	/^    _GetStdHandle = windll.kernel32.GetStdHandle$/;"	kind:variable	line:36
+_SetConsoleCursorPosition	lib/win32.py	/^    _SetConsoleCursorPosition = windll.kernel32.SetConsoleCursorPosition$/;"	kind:variable	line:56
+_SetConsoleTextAttribute	lib/win32.py	/^    _SetConsoleTextAttribute = windll.kernel32.SetConsoleTextAttribute$/;"	kind:variable	line:49
+__getattr__	lib/ansitowin32.py	/^    def __getattr__(self, name):$/;"	kind:member	line:30
+__init__	lib/ansi.py	/^    def __init__(self, codes):$/;"	kind:member	line:13
+__init__	lib/ansitowin32.py	/^    def __init__(self, wrapped, convert=None, strip=None, autoreset=False):$/;"	kind:member	line:45
+__init__	lib/ansitowin32.py	/^    def __init__(self, wrapped, converter):$/;"	kind:member	line:24
+__init__	lib/winterm.py	/^    def __init__(self):$/;"	kind:member	line:24
+__init__.py	lib/__init__.py	1;"	kind:file	line:1
+__str__	lib/win32.py	/^        def __str__(self):$/;"	kind:member	line:27
+_fields_	lib/win32.py	/^        _fields_ = [$/;"	kind:variable	line:20
+ansi.py	lib/ansi.py	1;"	kind:file	line:1
+ansitowin32.py	lib/ansitowin32.py	1;"	kind:file	line:1
+app	databasetest.py	/^	      app = raw_input("Applicazione: ")$/;"	kind:variable	line:205
+atexit_done	lib/initialise.py	/^atexit_done = False$/;"	kind:variable	line:14
+back	databasetest.py	/^	      back = raw_input("Premere un tasto per continuare ")$/;"	kind:variable	line:223
+back	lib/winterm.py	/^    def back(self, back=None, on_stderr=False):$/;"	kind:member	line:49
+call_win32	lib/ansitowin32.py	/^    def call_win32(self, command, params):$/;"	kind:member	line:165
+checkinit	databasetest.py	/^checkinit = os.path.exists("\/tmp\/test\/version")$/;"	kind:variable	line:14
+checkpassword	databasetest.py	/^checkpassword = os.path.exists("\/tmp\/test\/.tmp")$/;"	kind:variable	line:13
+client	databasetest.py	/^	      client = raw_input("Cliente da eliminare: ")$/;"	kind:variable	line:228
+code_to_chars	lib/ansi.py	/^def code_to_chars(code):$/;"	kind:function	line:9
+convert_ansi	lib/ansitowin32.py	/^    def convert_ansi(self, paramstring, command):$/;"	kind:member	line:151
+cursor_up	lib/winterm.py	/^    def cursor_up(self, num_rows=0, on_stderr=False):$/;"	kind:member	line:87
+databasetest.py	databasetest.py	1;"	kind:file	line:1
+dbpasswd	databasetest.py	/^	dbpasswd=open("\/tmp\/test\/.tmp", "r")$/;"	kind:variable	line:132
+dbpasswd	databasetest.py	/^	dbpasswd=open("\/tmp\/test\/.tmp", "w")$/;"	kind:variable	line:88
+dbpasswd	databasetest.py	/^	dbpasswd=open("\/tmp\/test\/.tmp","r")$/;"	kind:variable	line:142
+dbpasswd2	databasetest.py	/^	dbpasswd2=open("\/tmp\/test\/.tmp2", "w")$/;"	kind:variable	line:139
+dbpasswd2	databasetest.py	/^	dbpasswd2=open("\/tmp\/test\/.tmp2","r")$/;"	kind:variable	line:133
+dbpasswd2	databasetest.py	/^	dbpasswd2=open("\/tmp\/test\/.tmp2","r")$/;"	kind:variable	line:143
+dbrw	databasetest.py	/^	      dbrw = raw_input("Il database verrà sovrascritto, continuare? [si\/no]: ")$/;"	kind:variable	line:264
+deinit	lib/initialise.py	/^def deinit():$/;"	kind:function	line:38
+delete	databasetest.py	/^	      delete = "sed -i '\/%s\/d' \/tmp\/test\/db"$/;"	kind:variable	line:229
+erase_data	lib/winterm.py	/^    def erase_data(self, mode=0, on_stderr=False):$/;"	kind:member	line:97
+extract_params	lib/ansitowin32.py	/^    def extract_params(self, paramstring):$/;"	kind:member	line:157
+file	databasetest.py	/^	        file = raw_input("Importare con il nome: ")$/;"	kind:variable	line:268
+file	databasetest.py	/^	      file = raw_input("Esportare con il nome: ")$/;"	kind:variable	line:245
+fore	lib/winterm.py	/^    def fore(self, fore=None, on_stderr=False):$/;"	kind:member	line:43
+get_attrs	lib/winterm.py	/^    def get_attrs(self):$/;"	kind:member	line:31
+get_position	lib/winterm.py	/^    def get_position(self, handle):$/;"	kind:member	line:69
+get_win32_calls	lib/ansitowin32.py	/^    def get_win32_calls(self):$/;"	kind:member	line:85
+handles	lib/win32.py	/^    handles = {$/;"	kind:variable	line:83
+hash	databasetest.py	/^	hash = md5.new(passwdnew)$/;"	kind:variable	line:85
+info	databasetest.py	/^	      info = (stamp)$/;"	kind:variable	line:208
+init	databasetest.py	/^	init = raw_input("Sistema autentificazione root? [sudo\/su]: ")$/;"	kind:variable	line:37
+init	lib/initialise.py	/^def init(autoreset=False, convert=None, strip=None, wrap=True):$/;"	kind:function	line:21
+initialise.py	lib/initialise.py	1;"	kind:file	line:1
+is_a_tty	lib/ansitowin32.py	/^def is_a_tty(stream):$/;"	kind:function	line:14
+md5	databasetest.py	/^	md5 = hashlib.md5(key)$/;"	kind:variable	line:136
+moved	databasetest.py	/^		moved = "mv %s.db \/tmp\/test\/"$/;"	kind:variable	line:270
+moved	databasetest.py	/^	      moved = "cp \/tmp\/test\/db.db \/tmp\/test\/%s.db"$/;"	kind:variable	line:247
+name	databasetest.py	/^	      name = raw_input("Cliente: ")$/;"	kind:variable	line:204
+number	databasetest.py	/^	      number = raw_input("Password: ")$/;"	kind:variable	line:206
+orig_stderr	lib/initialise.py	/^orig_stderr = sys.stderr$/;"	kind:variable	line:9
+orig_stdout	lib/initialise.py	/^orig_stdout = sys.stdout$/;"	kind:variable	line:8
+raw_input	databasetest.py	/^	    raw_input = ()$/;"	kind:variable	line:175
+reinit	lib/initialise.py	/^def reinit():$/;"	kind:function	line:43
+removed	databasetest.py	/^		removed = "mv \/tmp\/test\/%s.db \/tmp\/test\/db.db"$/;"	kind:variable	line:272
+removed	databasetest.py	/^	      removed = "mv \/tmp\/test\/%s.db ."$/;"	kind:variable	line:249
+research	databasetest.py	/^	      research = raw_input("Cliente da cercare: ")$/;"	kind:variable	line:216
+reset_all	lib/ansitowin32.py	/^    def reset_all(self):$/;"	kind:member	line:123
+reset_all	lib/initialise.py	/^def reset_all():$/;"	kind:function	line:17
+reset_all	lib/winterm.py	/^    def reset_all(self, on_stderr=None):$/;"	kind:member	line:39
+searchfile	databasetest.py	/^	      searchfile = open("\/tmp\/test\/db", "r")$/;"	kind:variable	line:218
+select	databasetest.py	/^	    select = input("Selezionare numero: ")$/;"	kind:variable	line:198
+set_attrs	lib/winterm.py	/^    def set_attrs(self, value):$/;"	kind:member	line:34
+set_console	lib/winterm.py	/^    def set_console(self, attrs=None, on_stderr=False):$/;"	kind:member	line:61
+set_cursor_position	lib/winterm.py	/^    def set_cursor_position(self, position=None, on_stderr=False):$/;"	kind:member	line:77
+should_wrap	lib/ansitowin32.py	/^    def should_wrap(self):$/;"	kind:member	line:74
+split	lib/ansitowin32.py	/^        def split(paramstring):$/;"	kind:function	line:158
+stamp	databasetest.py	/^	      stamp = '|Cliente: {nome} |Applicazione: {applicazione} |Password: {passwd} |\\n'.format(nome=name, applicazione=app,passwd=number)$/;"	kind:variable	line:207
+style	lib/winterm.py	/^    def style(self, style=None, on_stderr=False):$/;"	kind:member	line:55
+win32.py	lib/win32.py	1;"	kind:file	line:1
+windll	lib/win32.py	/^    windll = None$/;"	kind:variable	line:11
+winterm	lib/ansitowin32.py	/^    winterm = WinTerm()$/;"	kind:variable	line:11
+winterm.py	lib/winterm.py	1;"	kind:file	line:1
+wrap_stream	lib/initialise.py	/^def wrap_stream(stream, convert, strip, autoreset, wrap):$/;"	kind:function	line:48
+wrapped_stderr	lib/initialise.py	/^wrapped_stderr = sys.stderr$/;"	kind:variable	line:12
+wrapped_stdout	lib/initialise.py	/^wrapped_stdout = sys.stdout$/;"	kind:variable	line:11
+write	lib/ansitowin32.py	/^    def write(self, text):$/;"	kind:member	line:113
+write	lib/ansitowin32.py	/^    def write(self, text):$/;"	kind:member	line:33
+write_and_convert	lib/ansitowin32.py	/^    def write_and_convert(self, text):$/;"	kind:member	line:130
+write_data	databasetest.py	/^		write_data = f.write(str(info))$/;"	kind:variable	line:210
+write_plain_text	lib/ansitowin32.py	/^    def write_plain_text(self, text, start, end):$/;"	kind:member	line:145
