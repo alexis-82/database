@@ -118,7 +118,7 @@ if select == 9:
     subprocess.call("clear", shell=True)
     subprocess.call("python3 databasetest.py", shell=True)
 if select == 0:
-	subprocess.call("clear", shell=True)
-	#os.kill(os.getppid(), signal.SIGHUP)
-	os.system("exit")
-	#return
+    subprocess.call("clear", shell=True)
+    #os.kill(os.getppid(), signal.SIGHUP)
+    #os.system("exit")
+    #return
