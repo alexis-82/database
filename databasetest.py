@@ -54,19 +54,19 @@ print("[0] Esci")
 print()
 select = eval(input("Selezionare numero: "))
 if select == 1:
-	print()
-	del raw_input
-	print()
-	time.sleep(1)
-	name = input("Cliente: ")
-	app = input("Applicazione: ")
-	number = input("Password: ")
-	stamp = '|Cliente: {nome} |Applicazione: {applicazione} |Password: {passwd} |\n'.format(nome=name, applicazione=app,passwd=number)
-	info = (stamp)
-	with open("db","a") as f:
-			write_data = f.write(str(info))
-			f.close
-			subprocess.call("clear", shell=True)
+    print()
+    del raw_input
+    print()
+    time.sleep(1)
+    name = input("Cliente: ")
+    app = input("Applicazione: ")
+    number = input("Password: ")
+    stamp = '|Cliente: {nome} |Applicazione: {applicazione} |Password: {passwd} |\n'.format(nome=name, applicazione=app,passwd=number)
+    info = (stamp)
+    with open("db","a") as f:
+        write_data = f.write(str(info))
+        f.close
+        subprocess.call("clear", shell=True)
 if select == 2:
     print()
     del raw_input
